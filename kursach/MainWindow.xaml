@@ -1,0 +1,17 @@
+﻿<Window x:Class="kursach.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kursach"
+        mc:Ignorable="d" Height="1080" Width="1920" Background="#FF4B6FA0" Cursor=""
+        WindowState="Maximized">
+    <Grid>
+        
+        <Button Content="Подбор обоев" HorizontalAlignment="Left" Margin="468,415,0,0" VerticalAlignment="Top" Width="260" Height="117" Click="Button_Click"/>
+        <Button x:Name="exit" Content="Выход" HorizontalAlignment="Center" VerticalAlignment="Top" Width="260" Height="118" Margin="0,597,0,0" Click="Button_Click_1"/>
+        <Label Content="    Добро пожаловать в программу&#xD;&#xA;      по подбору обоев и штор в &#xD;&#xA;                     вашу комнату " HorizontalAlignment="Center" Margin="0,155,0,0" VerticalAlignment="Top" Height="180" Width="692" FontSize="36" FontFamily="Yu Gothic UI Semibold" Opacity="0.9" FontWeight="Bold"/>
+        <Button Content="подбор штор" HorizontalAlignment="Left" Margin="1204,410,0,0" VerticalAlignment="Top" Height="117" Width="228"/>
+        <Image x:Name="ImageControl" Width="200" Height="200"/>
+    </Grid>
+</Window>
